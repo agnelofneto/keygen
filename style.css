@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: x-large;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background: url(/img/modern_futuristic_background.jpg) no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  display: grid;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  gap: 25px;
+  background-color: #1c1c1c;
+  text-align: center;
+  box-shadow: 0 1px 10px #ccc;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.btn_bey {
+  border-radius: 3px solid;
+  background-color: #5ccb5f;
+  color: aliceblue;
+  padding: 5px;
+  border: 0;
+  cursor: pointer;
+  border-color: rgb(191, 23, 191);
+  border-radius: 5px;
+}
+
+.container_passaword {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hide {
+  display: none;
+}
